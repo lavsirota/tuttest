@@ -1,0 +1,96 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.lav.tuttest.AppFragment"
+    android:background="?attr/main_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="326dp"
+            android:id="@android:id/list"
+            android:layout_gravity="center"
+            android:layout_below="@android:id/button1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_above="@android:id/text1"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_fragment_btn_text"
+            android:id="@android:id/button1"
+            android:layout_gravity="left|top"
+            android:background="@drawable/btn_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@android:id/text1"
+            android:text="@string/main_fragment_last_clear_time"
+            android:layout_above="@android:id/text2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@android:id/text2"
+            android:text="@string/main_fragment_next_clear_time"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/tv_last_clear_time"
+            android:text="15:02:33"
+            android:gravity="right"
+            android:layout_above="@android:id/text2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@android:id/text1"
+            android:layout_toEndOf="@android:id/text1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/tv_next_clear_time"
+            android:text="5"
+            android:gravity="right"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@android:id/text2"
+            android:layout_toLeftOf="@+id/textView"
+            android:layout_toStartOf="@+id/textView"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView"
+            android:text="@string/main_fragment_minute"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="0dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

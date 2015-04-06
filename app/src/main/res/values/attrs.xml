@@ -1,0 +1,6 @@
+<resources>
+
+    <attr name="main_background" format="reference" />
+    <attr name="navigation_drawer_background" format="reference" />
+
+</resources>

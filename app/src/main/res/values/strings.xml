@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">TUT test</string>
+    <string name="db_name">tuttest.db</string>
+    <string name="db_provider_authorities">com.lav.tuttest.db</string>
+
+    <string name="navigation_title_main">Главное</string>
+    <string name="navigation_title_settings">Настройки</string>
+    <string name="msg_fragment_title">Время открытия</string>
+
+    <string name="navigation_drawer_open">Открыть меню навигации</string>
+    <string name="navigation_drawer_close">Открыть меню навигации</string>
+
+    <string name="main_fragment_last_clear_time">Время последней очистки:</string>
+    <string name="main_fragment_next_clear_time">Время до следующей очистки:</string>
+    <string name="main_fragment_minute">мин</string>
+
+    <string name="pref_cleaning_data_frequency_key">pref_cleaning_data_frequency_key</string>
+    <string name="pref_cleaning_data_frequency_title">Интервал очистки данных</string>
+    <string name="pref_cleaning_data_frequency_summary">Интервал времени в минутах, с которым данные будут удаляться</string>
+    <string name="pref_cleaning_data_frequency_default">5</string>
+
+    <string name="pref_last_clear_time_key">pref_last_clear_time_key</string>
+    <string name="pref_last_clear_time_default">никогда</string>
+
+    <string name="pref_requerst_setting_key">pref_requerst_setting_key</string>
+    <string name="pref_requerst_setting_default">false</string>
+
+    <string name="pref_theme_key">pref_theme_key</string>
+    <string name="pref_theme_title">Тема оформления</string>
+    <string name="pref_theme_summary">Предпочтитаемый внешний вид</string>
+    <string name="pref_theme_default">@string/theme_blue</string>
+
+    <string name="theme_blue">0</string>
+    <string name="theme_orange">1</string>
+
+    <string-array name="themes_id">
+        <item>@string/theme_blue</item>
+        <item>@string/theme_orange</item>
+    </string-array>
+
+    <string-array name="themes_title">
+        <item>Синяя</item>
+        <item>Оранжевая</item>
+    </string-array>
+
+    <string name="main_fragment_btn_text">Открыть экран</string>
+
+</resources>

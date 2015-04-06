@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+    </style>
+
+    <style name="AppThemeBlue" parent="@style/AppTheme">
+        <item name="android:windowBackground">@color/main_background_blue</item>
+        <item name="main_background">@color/main_background_blue</item>
+    </style>
+
+    <style name="AppThemeOrange" parent="@style/AppTheme">
+        <item name="android:windowBackground">@color/main_background_orange</item>
+        <item name="main_background">@color/main_background_orange</item>
+    </style>
+
+</resources>

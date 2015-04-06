@@ -1,0 +1,10 @@
+<resources>
+
+    <color name="main_background_blue">#ff004266</color>
+    <color name="main_background_orange">#ffba6400</color>
+
+    <color name="navigation_drawer_background">#333333</color>
+    <color name="btn_stroke">#cccccc</color>
+    <color name="btn_solid_pressed">#66ffffff</color>
+
+</resources>

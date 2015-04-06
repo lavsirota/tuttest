@@ -1,0 +1,28 @@
+<PreferenceScreen
+    
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_cleaning_data_frequency_default"
+        android:key="@string/pref_cleaning_data_frequency_key"
+        android:summary="@string/pref_cleaning_data_frequency_summary"
+        android:title="@string/pref_cleaning_data_frequency_title" />
+
+    <com.lav.tuttest.pref.ThemeListPreference
+        android:defaultValue="@string/pref_theme_default"
+        android:dialogTitle="@string/pref_theme_title"
+        android:entries="@array/themes_title"
+        android:entryValues="@array/themes_id"
+        android:key="@string/pref_theme_key"
+        android:summary="@string/pref_theme_summary"
+        android:title="@string/pref_theme_title" />
+
+    <Preference
+        android:defaultValue="@string/pref_last_clear_time_default"
+        android:key="@string/pref_last_clear_time_key" />
+
+    <CheckPreference
+        android:defaultValue="@string/pref_requerst_setting_default"
+        android:key="@string/pref_requerst_setting_key" />
+
+</PreferenceScreen>
